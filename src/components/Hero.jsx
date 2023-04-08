@@ -30,9 +30,9 @@ const Hero = () => {
         <ComputersCanvas />
         <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-end  -ml-10 items-center">
           <a href="#about" className="flex items-center justify-center flex-col">
-            <div className="h-[30px] w-[5px] bg-white opacity-[75%]"/>
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-white opacity-75 flex  justify-center align-start p-2">
-              <motion.dev
+            <div className="h-[30px] w-[5px] bg-secondary opacity-[100%]"/>
+            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary opacity-100 flex  justify-center align-start p-2">
+              <motion.div
                 animate={{
                   y: [0, 24, 0],
                 }}
@@ -42,7 +42,7 @@ const Hero = () => {
                   repeatType: "loop",
                   // smoothstep: {}
                 }}
-                className="w-3 h-3 rounded-full bg-white opacity-100 mb-1"
+                className="w-3 h-3 rounded-full bg-white mb-1"
               />
             </div>
           </a>
